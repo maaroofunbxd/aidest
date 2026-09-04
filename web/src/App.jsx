@@ -19,7 +19,7 @@ const TOPICS = [
   { id: 'loneliness', label: 'Feeling Lonely' },
 ];
 
-const TOKEN_SERVER_URL = 'http://localhost:3000/api/get-token';
+const TOKEN_SERVER_URL = 'https://aidest.onrender.com/api/get-token';
 
 export default function App() {
   const [language, setLanguage] = useState('English');
