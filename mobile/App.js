@@ -210,7 +210,7 @@ export default function App() {
 
       await AudioSession.startAudioSession();
 
-      const response = await fetch('http://192.168.1.5:3000/api/get-token', {
+      const response = await fetch('https://aidest.onrender.com/api/get-token', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
